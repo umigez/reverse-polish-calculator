@@ -1,0 +1,1 @@
+gradlew build && java -cp build\libs\anz-rpolish-calc-1.0.jar gezer.Main

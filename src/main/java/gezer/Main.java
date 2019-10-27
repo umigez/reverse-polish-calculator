@@ -10,6 +10,7 @@ public class Main {
         final Calculator calculator = new Calculator();
         final Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Welcome to Reverse Polish Calc, please enter input:");
         while (scanner.hasNextLine()) {
             String input = scanner.nextLine();
             try {
